@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!--pegando css desde boostrap-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Shop</title>
+</head>
+<body>
+  <header class="welcome">
+    
+
+    <!-- Carrito -->
+    <div class="row justify-content-end">
+      <div class="col-4">
+        <div class="dropdown  " id="carritoEstilo" >
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="botonCarrito" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Mi Carrito <span id="carritoCantidad" class="badge badge-light">0</span>
+          </button>
+          <div  id= "carritoProductos" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="cargando" class="d-flex align-items-center">
+      <strong>Loading...</strong>
+      <div class="spinner-border ml-auto" role="status" aria-hidden="true"></div>
+    </div>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu" >
+    <img class="logo" src="./imagenes/logo.png" alt="Logo-Mi-Tienda-Online">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="#"> <button id="home"> Home</button> <span class="sr-only">(current)</span></a>
+        <a class="nav-link"  href="#"> <button id="nosotros">Sobre Nosotros</button></a>
+        <a class="nav-link" href="#"> <button id="contacto">Contacto</button> </a>
+        
+      </div>
+    </div>
+  </nav>
+  
+  <h3 id="infoNosotros" style="display: none;">
+    Somos una plataforma online que ofrece todo tipo de indumentaria de alta calidad. <br>
+    Desde Remeras y Pantalones hasta Gorras y Zapatos. <br>
+    Amplia variedad de precio para todos los gustos. <br>
+    ¡Muchas gracias por elegirnos!
+   </h3>
+
+   <h3 id="infoContacto" style="display: none;">
+    
+       Direccion: XXXXXXXX <br>
+       Telefono: XXXXXXXXX <br>
+       Sucursales: XXXXXXXX <br>
+       Email: XXXXXXXXXXX <br>
+     
+
+   </h3>
+
+  <div  id="anuncio" style="display: none;" class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">¡Ofertas de hoy!</h1>
+      <p class="lead">Desde el 12/10 al 16/10 tenemos increibles ofertas ¡Aprovecha!</p>
+    </div>
+  </div>
+  
+
+
+   
+   
+
+     <div>  
+         <div id="productosContenedor" class="card-columns">            
+        
+         </div>
+       </div>
+    
+
+    <footer>
+
+      
+         Derechos reservados| Politica de privacidad| Terminos y Condiciones| <br>
+         Copyright 2020
+     </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/globales.js"></script>
+    <script src="js/funciones.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+{"id":1, "nombre":"Remeras", "precio":"1500","cantidad":30,"img":"imagenes/remeras.jpg"},
+{"id":2, "nombre":"Pantalones", "precio":"5000", "cantidad":30,"img":"imagenes/pantalones.jpg"},
+{"id":3,"nombre":"Gorras", "precio":"500", "cantidad":50,"img":"imagenes/gorras.jpg"},
+{"id":4, "nombre":"Camperas", "precio": "10000","cantidad":15,"img":"imagenes/campra2.jpg"},
+{"id":5, "nombre":"Zapatos","precio": "8000","cantidad":20, "img":"imagenes/zapatos.jpg"},
+{"id":6, "nombre":"Shorts", "precio": "1200","cantidad":25, "img":"imagenes/shorts.jfif"},
+{"id":7, "nombre":"Medias", "precio":"250","cantidad":30,"img":"imagenes/medias.jfif"},
+{"id":8, "nombre":"Polleras", "precio":"750", "cantidad":30,"img":"imagenes/polleras.jpg"},
+{"id":9,"nombre":"Chombas", "precio":"900", "cantidad":50,"img":"imagenes/chombas.jpeg"},
+{"id":10, "nombre":"Vestidos", "precio": "1200","cantidad":15,"img":"imagenes/vestidos.jpg"},
+
+{"id":11, "nombre":"Camisas", "precio": "1600","cantidad":25, "img":"imagenes/camisas.jpg"}
+
+
+]
